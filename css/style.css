@@ -3,14 +3,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    width: 1900px;
+    height: 700px;
 }
 
 h3 {
     max-width: 500px;
-    margin: 0;
     padding-left: 85px;
+    padding-top: 8px;
     padding-right: 85px;
+    padding-bottom: 8px;
     background-color: #8fbc8f;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,3 +33,31 @@ input {
     height: 42px;
 
 }
+
+ul.listOfSkills {
+    padding: 0px;
+    list-style-type: none;
+    width: 500px;
+}
+
+ul.listOfSkills button {
+    color: white;
+    background-color: #CD5C5C;
+    background-size: auto;
+    border: none;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 3px, 3px;
+    height: fit-content;
+
+}
+
+ul.listOfSkills li {
+    padding: 4px;
+    color: #fb9902;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: left;
+}
+
+
